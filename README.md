@@ -2,7 +2,7 @@
 
 This project can create and publish the documentation for Add-Ons for PCF as a web application.
 
-**Note:** For specific information about IPsec book and branches, see the [IPsec content repo readme](https://github.com/pivotal-cf/docs-addon-ipsec/blob/master/README.md).
+**Note:** For specific information about Caliper book and branches, see the [Caliper content repo readme](https://github.com/pivotal-cf/docs-addon-compliance-tools/blob/master/README.md).
 
 In this topic:
 
