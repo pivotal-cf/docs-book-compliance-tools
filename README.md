@@ -1,8 +1,8 @@
-#  Caliper Add-On for PCF Documentation Book
+#  Compliance Scanner for PCF Documentation Book
 
-This project can create and publish the documentation for Caliper Add-on for PCF as a web application.
+This project can create and publish the documentation for Compliance Scanner for PCF as a web application.
 
-**Note:** For specific information about Caliper book and branches, see the [Caliper content repo readme](https://github.com/pivotal-cf/docs-addon-compliance-tools/blob/master/README.md).
+**Note:** For specific information about Compliance Scanner for PCF book and branches, see the [Compliance Scanner for PCF content repo readme](https://github.com/pivotal-cf/docs-addon-compliance-tools/blob/master/README.md).
 
 In this topic:
 
