@@ -19,7 +19,8 @@ sections:
   subnav_template: addon_compliance_tools_1_0.erb
   product_info:
     use_local_header: true
-    latest_stable_version: '1.0'
+    latest_stable_version: 1.0
+    changelog_href: https://docs.pivotal.io/addon-compliance-tools/1-0/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Compliance Scanner for PCF
     search_placeholder: Search Compliance Scanner v1.0
