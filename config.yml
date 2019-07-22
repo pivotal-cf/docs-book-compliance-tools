@@ -14,7 +14,7 @@ elastic_search: true
 sections:
 - repository:
     name: pivotal-cf/docs-addon-compliance-tools
-    ref: 'v1.0.0-beta.7'
+    ref: 'v1.0.0-beta'
   directory: addon-compliance-tools/1-0
   subnav_template: addon_compliance_tools_1_0.erb
   product_info:
