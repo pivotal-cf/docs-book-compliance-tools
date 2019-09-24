@@ -14,12 +14,31 @@ elastic_search: true
 sections:
 - repository:
     name: pivotal-cf/docs-addon-compliance-tools
+    ref: '1.1'
+  directory: addon-compliance-tools/1-1
+  subnav_template: addon_compliance_tools_1_1.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: 1.1
+    changelog_href: https://docs.pivotal.io/addon-compliance-tools/1-1/release-notes.html
+    local_header_img: /images/cloud_rings.png
+    local_header_title: Compliance Scanner for PCF
+    search_placeholder: Search Compliance Scanner v1.1
+    url_prefix: addon-compliance-tools/1-1
+    local_product_version: 1.1
+    local_header_links: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/addon-compliance-tools/1-0
+        display_name: 1.0
+
+- repository:
+    name: pivotal-cf/docs-addon-compliance-tools
     ref: '1.0'
   directory: addon-compliance-tools/1-0
   subnav_template: addon_compliance_tools_1_0.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.0
+    latest_stable_version: 1.1
     changelog_href: https://docs.pivotal.io/addon-compliance-tools/1-0/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Compliance Scanner for PCF
@@ -28,3 +47,5 @@ sections:
     local_product_version: 1.0
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/addon-compliance-tools/1-1
+        display_name: 1.0
