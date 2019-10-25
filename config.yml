@@ -18,6 +18,7 @@ sections:
     ref: master
   directory: compliance/partials
   no_docs: true
+  
 - repository:
     name: pivotal-cf/docs-addon-compliance-tools
     ref: '1.2'
@@ -39,11 +40,6 @@ sections:
       - url_prefix: http://docs.pivotal.io/addon-compliance-tools/1-0
         display_name: 1.0
 
-- repository:
-    name: pivotal-cf/docs-partials
-    ref: master
-  directory: compliance/partials
-  no_docs: true
 - repository:
     name: pivotal-cf/docs-addon-compliance-tools
     ref: '1.1'
