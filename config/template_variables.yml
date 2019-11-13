@@ -5,9 +5,8 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_full: Compliance Scanner for Pivotal Cloud Foundry
-  product_short: Compliance Scanner for PCF
-  product_name: PCF
+  product_full: Pivotal Compliance Scanner
+  product_short: Compliance Scanner
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
@@ -16,9 +15,26 @@ template_variables:
   support_url: http://support.pivotal.io
   path_to_partials: /compliance/partials
 
+# Product variables
+  ops_manager_full: Pivotal Operations Manager
+  ops_manager: Ops Manager
+  platform_name: Pivotal Platform
+  platform_old: Pivotal Cloud Foundry
+  platform_code: PCF
+  product_name_lc: pcf
+  app_runtime_full: Pivotal Application Service
+  app_runtime: Application Service
+  app_runtime_abbr: PAS
+  k8s_runtime_full: Enterprise Pivotal Container Service
+  k8s_runtime: Enterprise PKS
+  k8s_runtime_abbr: PKS
+  windows_runtime_full: Pivotal Application Service for Windows
+  windows_runtime: Application Service for Windows
+  windows_runtime_abbr: PASW
+
+# Book content variables
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
-
   admin: your Cloud Foundry administrator
   api_endpoint_book: For more information, see the [Identifying the API Endpoint for your Elastic Runtime Instance topic](http://docs.pivotal.io/pivotalcf/customizing/api-endpoint.html).
   api_endpoint: <a href="http://docs.pivotal.io/pivotalcf/opsguide/api-endpoint.html">the URL of the Cloud Controller in your Elastic Runtime instance</a>
