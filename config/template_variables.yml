@@ -7,7 +7,8 @@ template_variables:
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
   product_full: Pivotal Compliance Scanner
   product_short: Compliance Scanner
-  product_abbr:
+  product_abbr: Compliance Scanner
+  product_name: Pivotal Compliance Scanner #Do not use in the future.
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
