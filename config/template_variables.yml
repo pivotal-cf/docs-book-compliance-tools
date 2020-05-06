@@ -1,39 +1,74 @@
 ---
 template_variables:
-  book_title: Pivotal Documentation
-  book_title_short: Pivotal Docs
-  title: <span class="title-deemph">Pivotal</span> Documentation
+  book_title: VMware Tanzu Documentation
+  book_title_short: VMware Tanzu Docs
+  title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
-  hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_full: Pivotal Compliance Scanner
-  product_short: Compliance Scanner
-  product_abbr: Compliance Scanner
-  product_name: Pivotal Compliance Scanner #Do not use in the future.
-  product_old: Compliance Scanner for PCF
+  hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
+
+  tile_name: Compliance Scanner
   product_url: https://network.pivotal.io/products/pivotal-cf
-  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
+  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/VMware Tanzu-cf">Back to Product Page</a></div>
+
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
-  support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
+  support_call_to_action: <a href="http://support.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
+
+  product_network: VMware Tanzu Network
+
   path_to_partials: /compliance/partials
 
-# Product variables
-  ops_manager_full: Pivotal Operations Manager
+  api_version: 235
+  gtm_account_id: GTM-MW4LZHR
+
+  use_global_header: true
+  global_header_product_href: https://network.pivotal.io/
+  global_header_product_link_text: Downloads
+
+  # Tanzu variables
+
+  product_full: Compliance Scanner
+  product_short: Compliance Scanner
+  product_abbr: #Not in use
+
+  app_runtime_full: VMware Tanzu Application Service for VMs
+  app_runtime_abbr: TAS for VMs
+
+  k8s_runtime_full: VMware Enterprise PKS
+  k8s_runtime_abbr: PKS
+
+  windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93;
+  windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
+
+  segment_runtime_full: Isolation Segment
+
+  ops_manager_full: Operations Manager
   ops_manager: Ops Manager
+
+  # Pivotal variables
+
   platform_name: Pivotal Platform
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  app_runtime_full: Pivotal Application Service
-  app_runtime_abbr: PAS
-  k8s_runtime_full: Enterprise Pivotal Container Service
-  k8s_runtime_abbr: PKS
-  windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime_abbr: PASW
+
+  product_full_pivotal: Pivotal Compliance Scanner
+  product_short_pivotal: Compliance Scanner
+  product_abbr_pivotal: #Not in use
+
+  product_old: Compliance Scanner for PCF
+
+  app_runtime_full_pivotal: Pivotal Application Service
+  app_runtime_abbr_pivotal: PAS
+
+  k8s_runtime_full_pivotal: Pivotal Container Service
+
+  windows_runtime_full_pivotal: Pivotal Application Service for Windows
+  windows_runtime_abbr_pivotal: PASW
+
+  segment_runtime_full_pivotal: Pivotal Isolation Segment
 
 # Book content variables
-  api_version: 235
-  gtm_account_id: GTM-MW4LZHR
   admin: your Cloud Foundry administrator
   api_endpoint_book: For more information, see the [Identifying the API Endpoint for your Elastic Runtime Instance topic](http://docs.pivotal.io/pivotalcf/customizing/api-endpoint.html).
   api_endpoint: <a href="http://docs.pivotal.io/pivotalcf/opsguide/api-endpoint.html">the URL of the Cloud Controller in your Elastic Runtime instance</a>
