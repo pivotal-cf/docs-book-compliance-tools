@@ -27,7 +27,7 @@ template_variables:
 
   # Tanzu variables
 
-  product_full: Compliance Scanner
+  product_full: Compliance Scanner for VMware Tanzu
   product_short: Compliance Scanner
   product_abbr: #Not in use
 
