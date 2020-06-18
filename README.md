@@ -2,7 +2,7 @@
 
 This project can create and publish the documentation for Compliance Scanner as a web application.
 
-**Note:** For specific information about Compliance Scanner book and branches, see the [Compliance Scanner content repo readme](https://github.com/pivotal-cf/docs-addon-compliance-tools/blob/master/README.md).
+The content repo associated with this book is [docs-addon-compliance-tools](https://github.com/pivotal-cf/docs-addon-compliance-tools/).
 
 In this topic:
 
@@ -26,14 +26,14 @@ For example: `r302 %r{/addon-compliance-tools/(?![\d-]+)(.*)}, "/addon-complianc
 
 All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
 
-Each version of Anti-Virus has its own book branch:
+Each version of Compliance Scanner has its own book branch:
 
 | Branch name | Use for… |
 |-------------| ---------|
 | master      | "edge" branch for v1.x, publishes to https://docs-pcf-staging.cfapps.io/addon-compliance-tools/1-n/ |
 | 1.2         | v1.2.x   |
 | 1.1         | v1.1.x   |
-| 1.0         | v1.0.x   | 
+| 1.0         | v1.0.x   |
 
 ## What's in this Repo
 
