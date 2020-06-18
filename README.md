@@ -21,6 +21,20 @@ You must clone this repository to run `bookbinder bind local`.
 The centralized layout repository is specified as the value of the `layout_repo` key in the `config.yml` file.
 Bookbinder uses this centralized layout repository by default, but files in the book's `master_middleman/source` directory override files in the centralized layout repository if they have the same name.
 
+The redirect for the unversioned route is in `docs-book-pcfservices`. We update this redirect for each minor release so that the a URL without a version number redirects to latest release.
+For example: `r302 %r{/addon-compliance-tools/(?![\d-]+)(.*)}, "/addon-compliance-tools/1-2/$1"`
+
+All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
+
+Each version of Anti-Virus has its own book branch:
+
+| Branch name | Use for… |
+|-------------| ---------|
+| master      | "edge" branch for v1.x, publishes to https://docs-pcf-staging.cfapps.io/addon-compliance-tools/1-n/ |
+| 1.2         | v1.2.x   |
+| 1.1         | v1.1.x   |
+| 1.0         | v1.0.x   | 
+
 ## What's in this Repo
 
 Here you'll find the configuration and templates for the documentation set published to [docs.pivotal.io/](http://docs.pivotal.io/).
