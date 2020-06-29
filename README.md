@@ -21,7 +21,8 @@ You must clone this repository to run `bookbinder bind local`.
 The centralized layout repository is specified as the value of the `layout_repo` key in the `config.yml` file.
 Bookbinder uses this centralized layout repository by default, but files in the book's `master_middleman/source` directory override files in the centralized layout repository if they have the same name.
 
-The redirect for the unversioned route is in `docs-book-pcfservices`. We update this redirect for each minor release so that the a URL without a version number redirects to latest release.
+The redirect for the unversioned route is in `docs-book-pcfservices`. 
+We update this redirect for each minor release so that a URL without a version number redirects to the latest release.
 For example: `r302 %r{/addon-compliance-tools/(?![\d-]+)(.*)}, "/addon-compliance-tools/1-2/$1"`
 
 All other redirects are in the local `redirects.rb` file for all the versions that the redirects apply to.
