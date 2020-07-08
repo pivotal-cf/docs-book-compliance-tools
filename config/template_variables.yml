@@ -6,7 +6,7 @@ template_variables:
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
 
-  tile_name: Compliance Scanner
+  tile_name: Compliance Scanner for VMware Tanzu
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/VMware Tanzu-cf">Back to Product Page</a></div>
 
