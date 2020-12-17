@@ -33,8 +33,8 @@ Each version of Compliance Scanner has its own book branch:
 |-------------| ---------|
 | master      | "edge" branch for v1.x, publishes to https://docs-pcf-staging.cfapps.io/addon-compliance-tools/1-n/ |
 | 1.2         | v1.2.x   |
-| 1.1         | v1.1.x   |
-| 1.0         | v1.0.x   |
+| 1.1         | Deprecated |
+| 1.0         | Deprecated |
 
 ## What's in this Repo
 
