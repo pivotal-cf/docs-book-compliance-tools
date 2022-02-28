@@ -16,7 +16,7 @@ template_variables:
 
   product_network: VMware Tanzu Network
 
-  path_to_partials: /compliance/partials
+  path_to_partials: /partials
 
   api_version: 235
   gtm_account_id: GTM-MM86KCJ
