@@ -15,7 +15,7 @@ sections:
   # cross-product resources
 - repository:
     name: pivotal-cf/docs-partials
-    ref: master
+    ref: main
   directory: compliance/partials
   no_docs: true
 
